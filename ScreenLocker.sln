@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenLocker", "ScreenLocker\ScreenLocker.csproj", "{F8114E51-7D96-4B29-B5F9-D5716D85A077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenLocker.Data", "ScreenLocker.Data\ScreenLocker.Data.csproj", "{64AC456F-10B6-43AA-8325-2FE0EE42FDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenLocker.Model", "ScreenLocker.Model\ScreenLocker.Model.csproj", "{3DF0F5CB-65C2-47C3-BAAE-6AD20AFD4F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenLocker.Administrator", "ScreenLocker.Administrator\ScreenLocker.Administrator.csproj", "{817B22FE-6058-41E9-B8A5-7114C92911C7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScreenLocker(setup)", "ScreenLocker(setup)\ScreenLocker(setup).vdproj", "{BA72114F-B2B7-49B8-A4ED-172BF3A424A3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScreenLockerAdministrator(setup)", "ScreenLockerAdministrator(setup)\ScreenLockerAdministrator(setup).vdproj", "{39CAFAFB-17BE-4D3B-B585-02FA00139EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8114E51-7D96-4B29-B5F9-D5716D85A077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8114E51-7D96-4B29-B5F9-D5716D85A077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8114E51-7D96-4B29-B5F9-D5716D85A077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8114E51-7D96-4B29-B5F9-D5716D85A077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AC456F-10B6-43AA-8325-2FE0EE42FDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AC456F-10B6-43AA-8325-2FE0EE42FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AC456F-10B6-43AA-8325-2FE0EE42FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AC456F-10B6-43AA-8325-2FE0EE42FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF0F5CB-65C2-47C3-BAAE-6AD20AFD4F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF0F5CB-65C2-47C3-BAAE-6AD20AFD4F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF0F5CB-65C2-47C3-BAAE-6AD20AFD4F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF0F5CB-65C2-47C3-BAAE-6AD20AFD4F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817B22FE-6058-41E9-B8A5-7114C92911C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817B22FE-6058-41E9-B8A5-7114C92911C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817B22FE-6058-41E9-B8A5-7114C92911C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817B22FE-6058-41E9-B8A5-7114C92911C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA72114F-B2B7-49B8-A4ED-172BF3A424A3}.Debug|Any CPU.ActiveCfg = Debug
+		{BA72114F-B2B7-49B8-A4ED-172BF3A424A3}.Release|Any CPU.ActiveCfg = Release
+		{39CAFAFB-17BE-4D3B-B585-02FA00139EDC}.Debug|Any CPU.ActiveCfg = Debug
+		{39CAFAFB-17BE-4D3B-B585-02FA00139EDC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C111F4FC-B971-43A8-B33F-3BFBB27C670B}
+	EndGlobalSection
+EndGlobal

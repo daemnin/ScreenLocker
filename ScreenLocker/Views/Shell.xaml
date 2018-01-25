@@ -1,0 +1,52 @@
+﻿<Window
+    x:Class="ScreenLocker.Views.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:prism="http://prismlibrary.com/"
+    Title="MainWindow"
+    prism:ViewModelLocator.AutoWireViewModel="True"
+    ShowInTaskbar="False"
+    Topmost="True"
+    Visibility="{Binding Path=IsVisible, Mode=TwoWay, Converter={StaticResource ResourceKey=VisibilityConverter}}"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized"
+    WindowStyle="None">
+    <Grid
+        Width="600"
+        Margin="50"
+        VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".65*" />
+            <ColumnDefinition Width=".35*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Ingrese número de control" Style="{StaticResource ResourceKey=LabelStyle}" />
+        <TextBox
+            Grid.Row="1"
+            Style="{StaticResource ResourceKey=TextBoxStyle}"
+            Text="{Binding Path=ControlNumber, UpdateSourceTrigger=PropertyChanged}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="KeyDown">
+                    <prism:InvokeCommandAction Command="{Binding Path=KeyPressedCommand}" TriggerParameterPath="Key" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </TextBox>
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Command="{Binding Path=LoginCommand}"
+            Content="Iniciar sesión"
+            Style="{StaticResource ResourceKey=ButtonStyle}" />
+        <TextBlock
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Style="{StaticResource ResourceKey=TextBlockStyle}"
+            Text="{Binding Path=Error}" />
+    </Grid>
+</Window>
