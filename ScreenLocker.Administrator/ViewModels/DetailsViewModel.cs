@@ -79,11 +79,18 @@ namespace ScreenLocker.Administrator.ViewModels
         {
             IsBusy = true;
 
-            using (var unitOfWork = kernel.Get<IUnitOfWork>())
+            try
             {
-                Students = new ObservableCollection<Student>(unitOfWork.StudentRepository.GetAll());
-                StudentsView = CollectionViewSource.GetDefaultView(Students);
-                StudentsView.Filter = new Predicate<object>(Fillter);
+                using (var unitOfWork = kernel.Get<IUnitOfWork>())
+                {
+                    Students = new ObservableCollection<Student>(unitOfWork.StudentRepository.GetAll());
+                    StudentsView = CollectionViewSource.GetDefaultView(Students);
+                    StudentsView.Filter = new Predicate<object>(Fillter);
+                }
+            }
+            catch (Exception ex)
+            {
+                Status = $"Error: {ex.Message}";
             }
 
             IsBusy = false;
@@ -197,6 +204,7 @@ namespace ScreenLocker.Administrator.ViewModels
 
         public async void OnNavigatedTo(NavigationContext navigationContext)
         {
+            Status = string.Empty;
             await Task.Run(Load);
         }
 

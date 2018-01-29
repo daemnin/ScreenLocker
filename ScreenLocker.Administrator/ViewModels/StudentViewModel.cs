@@ -128,6 +128,7 @@ namespace ScreenLocker.Administrator.ViewModels
 
         public void OnNavigatedTo(NavigationContext navigationContext)
         {
+            Status = string.Empty;
             if (navigationContext.Parameters.Any(p => p.Key.Equals("entity")))
             {
                 var student = navigationContext.Parameters["entity"] as Student;

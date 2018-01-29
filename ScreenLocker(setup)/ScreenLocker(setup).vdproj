@@ -87,13 +87,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_36EEF4C81895D054E903C88214FAB457"
-        "OwnerKey" = "8:_8C87165D444202453499CF973030D431"
+        "MsmKey" = "8:_35355BD447C6EA87975DBA2DBA17F966"
+        "OwnerKey" = "8:_C52706C03AAF820CC9E6FBC319D7DBB3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_36EEF4C81895D054E903C88214FAB457"
+        "MsmKey" = "8:_35355BD447C6EA87975DBA2DBA17F966"
         "OwnerKey" = "8:_909EAA5A605B41F5B57D7F2E6842ED40"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -202,7 +202,7 @@
         "Entry"
         {
         "MsmKey" = "8:_6B0A4DC62891CAE1631FAAD1BD10A7D6"
-        "OwnerKey" = "8:_36EEF4C81895D054E903C88214FAB457"
+        "OwnerKey" = "8:_35355BD447C6EA87975DBA2DBA17F966"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -261,12 +261,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8C87165D444202453499CF973030D431"
-        "OwnerKey" = "8:_909EAA5A605B41F5B57D7F2E6842ED40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8D4D740C5D4EB45EF5135B10117E4247"
         "OwnerKey" = "8:_909EAA5A605B41F5B57D7F2E6842ED40"
         "MsmSig" = "8:_UNDEFINED"
@@ -304,13 +298,13 @@
         "Entry"
         {
         "MsmKey" = "8:_9C0F431323D08E06D535834B17D2DB16"
-        "OwnerKey" = "8:_36EEF4C81895D054E903C88214FAB457"
+        "OwnerKey" = "8:_35355BD447C6EA87975DBA2DBA17F966"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_9C0F431323D08E06D535834B17D2DB16"
-        "OwnerKey" = "8:_8C87165D444202453499CF973030D431"
+        "OwnerKey" = "8:_C52706C03AAF820CC9E6FBC319D7DBB3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -376,6 +370,12 @@
         "Entry"
         {
         "MsmKey" = "8:_C36143DDBFE1E08D44DD53DE649569B2"
+        "OwnerKey" = "8:_909EAA5A605B41F5B57D7F2E6842ED40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C52706C03AAF820CC9E6FBC319D7DBB3"
         "OwnerKey" = "8:_909EAA5A605B41F5B57D7F2E6842ED40"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -508,13 +508,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8C87165D444202453499CF973030D431"
+        "OwnerKey" = "8:_C52706C03AAF820CC9E6FBC319D7DBB3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_36EEF4C81895D054E903C88214FAB457"
+        "OwnerKey" = "8:_35355BD447C6EA87975DBA2DBA17F966"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1337,14 +1337,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_36EEF4C81895D054E903C88214FAB457"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_35355BD447C6EA87975DBA2DBA17F966"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ScreenLocker.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_36EEF4C81895D054E903C88214FAB457"
+                    "_35355BD447C6EA87975DBA2DBA17F966"
                     {
                     "Name" = "8:ScreenLocker.Model.dll"
                     "Attributes" = "3:512"
@@ -2112,37 +2112,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8C87165D444202453499CF973030D431"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ScreenLocker.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_8C87165D444202453499CF973030D431"
-                    {
-                    "Name" = "8:ScreenLocker.Data.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ScreenLocker.Data.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_4E18B33E89B3442EA2266EFE56745124"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8D4D740C5D4EB45EF5135B10117E4247"
             {
             "AssemblyRegister" = "3:1"
@@ -2529,6 +2498,37 @@
                     }
                 }
             "SourcePath" = "8:Prism.Wpf.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_4E18B33E89B3442EA2266EFE56745124"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C52706C03AAF820CC9E6FBC319D7DBB3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ScreenLocker.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C52706C03AAF820CC9E6FBC319D7DBB3"
+                    {
+                    "Name" = "8:ScreenLocker.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ScreenLocker.Data.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4E18B33E89B3442EA2266EFE56745124"
@@ -3107,7 +3107,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:TNM"
+        "Manufacturer" = "8:TecNM"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://itensenada.edu.mx/"
         "Title" = "8:ScreenLocker"
@@ -3776,7 +3776,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_909EAA5A605B41F5B57D7F2E6842ED40"
             {
-            "SourcePath" = "8:..\\ScreenLocker\\obj\\Debug\\ScreenLocker.exe"
+            "SourcePath" = "8:..\\ScreenLocker\\obj\\Release\\ScreenLocker.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4E18B33E89B3442EA2266EFE56745124"
